@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+
+</head>
+<body>
+    <div class="demo" style="background-color: yellow;">this is my first paragraph</div>
+    <div id="demoID" style="background-color: green;">this is my second paragraph</div><br>
+
+    <input type="number" class="input">
+
+    <script type="text/javascript"> 
+
+        'use strict';
+        console.log(document.querySelector('.demo').textContent) 
+        console.log(document.querySelector('#demoID').textContent)
+        document.querySelector('.input').value=23
+        document.querySelector('.demo').textContent="hello moto"
+        
+    </script>    
+</body>
+
+</html>
