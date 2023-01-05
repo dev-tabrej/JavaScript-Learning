@@ -33,3 +33,5 @@ console.log(`${index} is index of danish`)
 
 // includes Method to find out if present in array
 console.log(array1.includes("tabrej"))// returns boolean i.e True or False
+
+// console.log(Boolean(1))

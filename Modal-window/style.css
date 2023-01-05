@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.modal-view{
+    z-index: 1;
+    margin: 20px;
+    font-size: 2rem;
+    border-radius: 30px;
+}
+.modal-view:hover{
+    border: 2px solid red;
+}
+.hidden{
+    display: none;
+}
+.overlay{
+    z-index: 2;
+    background-color: green;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    /* vertical-align: middle; */
+    text-align: center;
+}
