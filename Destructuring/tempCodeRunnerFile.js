@@ -1,8 +1,3 @@
-rcle;
-// console.log(specification);
-
-// // assigning a different value to specification will not change original variable inside the object
-// specification="EIE";
-// console.log(specification);
-
-// console.log(MyCircle.studies.btech.branch);
+let a=3,b=4;
+console.log(a,b);
+const obj={a:12,b:16,c:28};

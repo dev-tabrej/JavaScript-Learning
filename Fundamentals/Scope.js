@@ -1,6 +1,6 @@
 let myname='tabrej';
-function virgin(){
-    const isVirgin=true;
+function canMarry(){
+    const isMarried=false;
     function printDetails(){
         const age=22;
         
@@ -9,13 +9,12 @@ function virgin(){
             var why="i dont know"
             myname='tabrej mirza'
         }
-        console.log(why)
-    // console.log(`i am of age ${age} and ${isVirgin}`)//throw error because of scoping of isvirgin
-    
+        // console.log(why);
+        console.log(`i am of age ${age} and ${isMarried}`)//throw error because of scoping of isvirgin
     }
     printDetails();
     // console.log(why)
 }
-virgin();
+canMarry();
 // console.log(why) //throw error because var is block scoped
 console.log(myname)

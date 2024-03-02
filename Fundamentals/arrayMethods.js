@@ -1,37 +1,42 @@
-// const arr=new Array("john","jonh2","john3");
-// console.log(`${arr} \n`);
+// ____________________ Creating an array _______________________________
 
-// // push
-// const pushed=arr.push("pushed_name")
-// console.log(`${arr} \n`);
-// console.log(pushed)
+    // const arr=new Array("john","jonh2","john3");
+    // const arr =['john','tom','chris'];
+    // console.log(arr);
+    // console.log(`${arr} \n`);
 
-// // unshift
-// const unshifted=arr.unshift("unshifted_name")
-// console.log(`${arr} \n`);
-// console.log(unshifted)
+//______________________ Arrray Methods_______________________________ 
+    // // push(element) (use to add an element at end of array)
+    // const pushed=arr.push("pushed_name")
+    // console.log(`${arr} \n`);
+    // console.log(pushed)
 
-// // pop
-// const popped=arr.pop()
-// console.log(`${arr} \n`);
-// console.log(popped)
+    // // unshift(element) (adds at front )
+    // const unshifted=arr.unshift("unshifted_name")
+    // console.log(`${arr} \n`);
+    // console.log(unshifted)
 
-// // shift
-// const shifted=arr.shift()
-// console.log(`${arr} \n`);
-// console.log(shifted)
+    // // pop (remove from end)
+    // const popped=arr.pop()
+    // console.log(`${arr} \n`);
+    // console.log(popped)
 
-const array1=["tabrej","ali"]
-const array2=["ahmed","danish",array1]
-console.log(array2)
+    // // shift (removes from front)
+    // const shifted=arr.shift()
+    // console.log(`${arr} \n`);
+    // console.log(shifted)
 
-// capture index of array element using index of function
-const index=array2.indexOf("danish");// returns -1 if not present
+// const array1=["tabrej","ali"]
+// const array2=["ahmed","danish",array1]
+// console.log(array2)
+
+// // capture index of array element using index of function
+// const index=array2.indexOf("danish");// returns -1 if not present
 
 
-console.log(`${index} is index of danish`)
+// console.log(`${index} is index of danish`)
 
-// includes Method to find out if present in array
-console.log(array1.includes("tabrej"))// returns boolean i.e True or False
+// // includes Method to find out if present in array
+// console.log(array1.includes("tabrej"))// returns boolean i.e True or False
 
 // console.log(Boolean(1))

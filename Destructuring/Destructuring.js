@@ -5,7 +5,7 @@
 //     cgpa:7.6
 // };
 
-// // 1. It will create a new variable myName but it remains undefined as it will not take any reference from any property of object  
+// 1. It will create a new variable myName but it remains undefined as it will not take any reference from any property of object  
 // const{myName}=MyCircle;
 // console.log(myName);
 
@@ -21,7 +21,10 @@
 // const objCopy=Object.assign({},MyCircle);
 // console.log(objCopy);
 // objCopy.cgpa=8;
-// console.log(objCopy.cgpa,obj.cgpa);
+// console.log(objCopy.cgpa,MyCircle.cgpa);
+
+
+
 // // 2. It will create a new variable fisrtName referenced from name in the object and a variable batch that will point directly to the batch property of object 
 // const {name:firstName,batch
 // }=MyCircle;
@@ -31,12 +34,13 @@
 // let a=3,b=4;
 // console.log(a,b);
 // const obj={a:12,b:16,c:28};
-// // won't work 
-// //   {a,b}=Obj;
 
-// // work
-// ({a,b}=obj);
-// console.log(a,b)\
+// //won't work because brackets represent a blocked scope to make this work we have to put the expression inside parenthesis
+//   {a,b}=Obj;
+
+// //work
+// ({a,b,c,d}=obj); 
+// console.log(a,b,c,d)
 
 const MyCircle={
     name:"Tabrej",
@@ -58,6 +62,9 @@ MyCircle.result({
     captain:true
 });
 
+// const objCopy=Object.assign(MyCircle);
+// console.log("coppy of ob is ",objCopy);
+
 // console.log(MyCircle.studies);
 
 // //  nested objects destructuring
@@ -66,7 +73,7 @@ MyCircle.result({
 // const {studies:{btech:course}}=MyCircle;
 // console.log(course);
 
-// // it will point to branch
+// //it will create a variable called specification and it will point to branch 
 // let {studies:{btech:{branch:specification}}}=MyCircle;
 // console.log(specification);
 
